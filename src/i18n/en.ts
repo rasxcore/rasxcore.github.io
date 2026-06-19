@@ -26,7 +26,7 @@ export const en = {
 	'link.backrooms.label': 'Backrooms Wiki',
 	'link.backrooms.desc': 'where I noclip out of reality',
 	'footer.quote':
-		'If you\'re not careful and you noclip out of reality in the wrong areas, you\'ll end up in the Backrooms, where it\'s nothing but the stink of old, moist carpet, the madness of mono-yellow, the endless background noise of fluorescent lights at maximum hum-buzz, and approximately six hundred million square miles of randomly segmented empty rooms to be trapped in\n\nGod save you if you hear something wandering around nearby, because it sure as hell has heard you.',
+		'If you\'re not careful and you noclip out of reality in the wrong areas, you\'ll end up in the Backrooms, where it\'s nothing but the stink of old moist carpet, the madness of mono-yellow, the endless background noise of fluorescent lights at maximum hum-buzz, and approximately six hundred million square miles of randomly segmented empty rooms to be trapped in\n\nGod save you if you hear something wandering around nearby, because it sure as hell has heard you',
 	'link.external': 'Opens in a new tab',
 	'panel.hide': 'Hide',
 	'panel.show': 'Show',
