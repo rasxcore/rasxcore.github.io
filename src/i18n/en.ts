@@ -5,8 +5,6 @@ export const en = {
 	'hero.tagline': 'Frontend engineer · Musician · Gamer',
 	'hero.subtitle': 'Imagine describing a dog to someone who\'s never seen one before and then asking them to draw it. It will look similar but the devil is in the details.',
 	'lang.switch': 'Language',
-	'lang.ru': 'RU',
-	'lang.en': 'EN',
 	'category.music': 'Music',
 	'category.gaming': 'Gaming',
 	'category.social': 'Social',

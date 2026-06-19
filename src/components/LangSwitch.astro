@@ -1,11 +1,22 @@
-<div class="switch-pill flex gap-1.5 p-1" role="group" aria-label="Language">
+---
+import { defaultLang, t } from '../i18n';
+
+const lang = defaultLang;
+---
+
+<div
+	class="switch-pill flex gap-1.5 p-1"
+	role="group"
+	data-i18n-aria-label="lang.switch"
+	aria-label={t(lang, 'lang.switch')}
+>
 	<button
 		type="button"
 		class="lang-btn switch-btn is-active min-h-9 min-w-12 cursor-pointer rounded-md border border-transparent px-3 py-1.5 font-display text-[0.8125rem] font-bold tracking-widest transition-[background-color,color,border-color,box-shadow] duration-200 ease-out"
 		data-lang="ru"
 		aria-pressed="true"
 	>
-		RU
+		РУС
 	</button>
 	<button
 		type="button"
