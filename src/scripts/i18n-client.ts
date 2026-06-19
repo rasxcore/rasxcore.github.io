@@ -2,7 +2,12 @@ import { translations, type Lang } from '../i18n';
 
 function detectBrowserLang(): Lang {
 	const list = navigator.languages?.length ? navigator.languages : [navigator.language || 'en'];
-	return list.some((locale) => String(locale).toLowerCase().startsWith('ru')) ? 'ru' : 'en';
+	for (const locale of list) {
+		const lower = String(locale).toLowerCase();
+		if (lower.startsWith('ru')) return 'ru';
+		if (lower.startsWith('en')) return 'en';
+	}
+	return 'en';
 }
 
 export function resolveLang(): Lang {
